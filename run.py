@@ -4,7 +4,10 @@ from game import gameplay
 
 if __name__ == "__main__":
     print("""Welcome to DEAD AND WOUNDED!!!
-    Try to guess the four digits number with no duplicate values\n""")
+    You are to guess the n-digits number with no duplicate values
+    The n-digits number is determined by three difficulty levels
+    Easy = 4-digits, Medium = 5-digits, Hard = 6-digits
+    """)
 
     response = 'Y'
     # check to continue or exit game
